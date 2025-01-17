@@ -1,9 +1,68 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
-
+* {
+    margin: 0px;
+    padding: 0px;
+}
 .primary-font {
     font-family: "Work Sans", serif;
     font-optical-sizing: auto;
     font-style: normal;
 }
 
+/* Shared Styles */
 
+/* paragraphs with dark3 color and 16px fonts */
+.primary-para {
+    color: rgb(114, 114, 114);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+
+/* Header texts with dark1 color and 45px fonts */
+.primary-header {
+    color: rgb(19, 19, 19);
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0%;
+}
+
+.primary-color {
+    color: rgb(255, 144, 14);
+}
+/* display flex */
+.navbar,
+.nav-links {
+    display: flex;
+}
+/* End of Shared styles */
+
+/* Navbar Styles */
+.header {
+    background-color: rgba(255, 144, 14, 0.1);
+    padding-top: 50px;
+}
+.navbar {
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0px auto;
+
+}
+
+.nav-links {
+    gap: 50px;
+}
+/* Removing list styles from nav bar */
+.link-items {
+    list-style: none;
+}
+
+/* Adding styles to the navbar links(anchors) */
+.link-item-name {
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-size: 18px;
+    font-weight: 500;
+}
