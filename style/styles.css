@@ -217,20 +217,59 @@ main {
     }
 
     /* Features Section */
+    .features-container {
+        gap: 20px;
+    }
     .feature-image img {
         width: 100%;
     }
     .feature-button {
-        margin: 0px 15px;
+        margin: 0px;
+        margin-left: 30px;
     }
 }
 
 /* Media queries for medium devices */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    .teams-container {
+    .navbar,
+    .nav-links,
+    .teams-container,
+    .features-container {
         flex-direction: column;
     }
+
     .teams-contents {
         margin: 0 100px;
+    }
+    .teams-images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .teams-images img {
+        width: 40%;
+    }
+
+    /* Feature section */
+    .features-container {
+        padding: 10px;
+        border: 5px solid salmon;
+        gap: 20px;
+    }
+    .feature-card-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0px;
+        justify-items: center;
+    }
+    .feature-card {
+        width: 300px;
+        height: 150px;
+    }
+    .feature-image img {
+        width: 100%;
+    }
+    .feature-button {
+        margin: 0px 10px;
     }
 }
