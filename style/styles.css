@@ -221,7 +221,7 @@ main {
         width: 100%;
     }
     .feature-button {
-        margin: 0px auto;
+        margin: 0px 15px;
     }
 }
 
