@@ -52,7 +52,8 @@ main {
 /* display flex */
 .navbar,
 .nav-links,
-.teams-container {
+.teams-container,
+.features-container {
     display: flex;
 }
 
@@ -144,6 +145,51 @@ main {
 
 .teams-description {
     margin-top: 24px;
+}
+
+/* End of Teams Section Styles */
+/* --------- */
+/* Feature Section Styles */
+.features-container {
+    margin-top: 130px;
+    gap: 145px;
+}
+.feature-header {
+    margin-bottom: 24px;
+    border-left: 5px solid rgb(255, 144, 14);
+    padding-left: 10px;
+}
+.feature-info {
+    margin-bottom: 30px;
+}
+
+.feature-card {
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+.feature-card-title {
+    color: rgb(19, 19, 19);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#feature-btn {
+    padding: 45px 42px;
+    /* margin-top: -100px; */
+    margin-left: -100px;
+    margin-top: -200px;
+}
+
+#feature-btn-years {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.feature-btn-exp {
+    font-weight: 500;
+    font-size: 1.5rem;
 }
 
 /* Responsive Media queries for mobile devices */
