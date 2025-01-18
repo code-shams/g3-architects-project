@@ -98,7 +98,7 @@ main {
     max-width: 1440px;
     padding-bottom: 45px;
     margin: 0px auto;
-    margin-bottom: 85px;
+    /* margin-bottom: 85px; */
 }
 
 .banner-contents {
@@ -120,6 +120,7 @@ main {
 
 /* Teams section styles */
 .teams-container {
+    margin-top: 80px;
     padding: 60px;
     justify-content: space-between;
     align-items: center;
