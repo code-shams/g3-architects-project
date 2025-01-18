@@ -144,6 +144,8 @@ main {
 .teams-description {
     margin-top: 24px;
 }
+
+/* Responsive Media queries for mobile devices */
 @media screen and (max-width: 576px) {
     .navbar,
     .nav-links {
@@ -151,5 +153,18 @@ main {
     }
     .header {
         padding: 20px;
+    }
+
+    /* Teams section */
+    .teams-container {
+        flex-direction: column;
+        padding: 0px;
+    }
+
+    .teams-images {
+        grid-template-columns: 1fr;
+    }
+    .teams-images img {
+        width: 100%;
     }
 }
