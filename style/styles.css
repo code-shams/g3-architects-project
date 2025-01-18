@@ -151,7 +151,7 @@ main {
 /* --------- */
 /* Feature Section Styles */
 .features-container {
-    margin-top: 130px;
+    margin: 130px 0px;
     gap: 145px;
 }
 .feature-header {
@@ -177,7 +177,7 @@ main {
 
 .feature-button {
     margin-left: -100px;
-    margin-top: -200px;
+    margin-top: -150px;
 }
 #feature-btn {
     padding: 45px 42px;
@@ -191,6 +191,47 @@ main {
 .feature-btn-exp {
     font-weight: 500;
     font-size: 1.5rem;
+}
+
+/* End of Feature Section */
+/*  */
+/* Start of Facts section */
+.facts-container {
+    margin-bottom: 180px;
+}
+.facts-title {
+    margin-bottom: 24px;
+}
+.facts-info {
+    margin-bottom: 100px;
+}
+.fact-cards-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+.fact-card {
+    box-sizing: border-box;
+    padding: 50px 30px;
+    width: 280px;
+    border: 1px solid rgb(255, 144, 14);
+    border-radius: 8px;
+    justify-items: center;
+}
+.fact-card-title {
+    color: rgb(66, 66, 66);
+    font-size: 2.8rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.fact-card-info {
+    color: rgb(114, 114, 114);
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-align: center;
 }
 
 /* Responsive Media queries for mobile devices */
