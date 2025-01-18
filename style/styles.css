@@ -268,6 +268,15 @@ main {
         margin: 0px;
         margin-left: 30px;
     }
+    /* Facts card section */
+    .fact-cards-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    .fact-card {
+        width: 180px;
+        padding: 10px;
+    }
 }
 
 /* Media queries for medium devices */
@@ -294,7 +303,6 @@ main {
     /* Feature section */
     .features-container {
         padding: 10px;
-        border: 5px solid salmon;
         gap: 20px;
     }
     .feature-card-container {
@@ -312,5 +320,10 @@ main {
     }
     .feature-button {
         margin: 0px 10px;
+    }
+    /* Facts card section */
+    .fact-cards-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
     }
 }
