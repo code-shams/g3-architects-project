@@ -67,7 +67,7 @@ main {
 /* Navbar Styles */
 .header {
     background-color: rgba(255, 144, 14, 0.1);
-    padding-top: 50px;
+    padding: 50px 20px 0px 20px;
 }
 .navbar {
     justify-content: space-between;
@@ -159,13 +159,19 @@ main {
     /* Teams section */
     .teams-container {
         flex-direction: column;
-        padding: 0px;
+        padding: 20px;
     }
 
     .teams-images {
         grid-template-columns: 1fr;
     }
-    .teams-images img {
-        width: 100%;
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    .teams-container {
+        flex-direction: column;
+    }
+    .teams-contents {
+        margin: 0 100px;
     }
 }
